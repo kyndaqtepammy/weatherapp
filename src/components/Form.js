@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
 /**
 * @author
@@ -7,7 +6,9 @@ import PropTypes from 'prop-types'
 **/
 
 class Form extends Component {
- state = {}
+ state = {
+     
+ }
  
  render() {
   return(
