@@ -25,7 +25,7 @@ body {
   margin: auto;
   border-radius: 6px;
   overflow: hidden;
-  background: #fafafa url("/public/logo512.png") no-repeat 90% 50%;
+  background: #fafafa url("/public/logo512.png");
 }
 
 .select-style select {
@@ -48,6 +48,7 @@ body {
   transition: 0.3s;
   width: 20%;
   padding: 5%;
+  cursor: pointer;
 }
 
 .card:hover {
